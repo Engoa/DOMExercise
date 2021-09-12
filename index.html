@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="main.css" />
+    <script src="domExercise.js" defer></script>
+    <script src="https://kit.fontawesome.com/9a80e50f42.js" crossorigin="anonymous"></script>
+
+    <title>domExercise</title>
+  </head>
+  <body>
+    <div class="wrapper">
+      <button class="wrapper--btn" id="buy-btn">Buy Product</button>
+
+      <div class="wrapper--loveNotLove">
+        <div class="wrapper--love">
+          <button class="loveme">Love me?</button>
+          <p class="hidden-p1">Love you!</p>
+        </div>
+        <div class="wrapper--hate">
+          <button class="hateme">Hate me?</button>
+          <p class="hidden-p2">Hate you!</p>
+        </div>
+        <div class="wrapper--bg">
+          <button class="changebg">MAGIC!</button>
+        </div>
+        <div class="wrapper--select">
+          <form id="form">
+            <select name="colorchange" id="colorchange">
+              <option value=""></option>
+              <option id="red" value="red">Red</option>
+              <option id="blue" value="blue">Blue</option>
+              <option id="green" value="green">Green</option>
+              <option id="yellow" value="yellow">Yellow</option>
+            </select>
+          </form>
+        </div>
+
+        <div class="item--count">
+          <div class="add">
+            <button id="add" type="button">
+              <i class="fas fa-plus"></i>
+            </button>
+          </div>
+          <div class="count"><span id="quantity">1</span></div>
+          <div class="remove">
+            <button id="remove" type="button">
+              <i class="fas fa-minus"></i>
+            </button>
+          </div>
+        </div>
+        <form class="emailcheck">
+          <div class="wrapper--input">
+            <input class="unset" type="email" placeholder="Enter you Email" />
+            <button type="submit">Check Email!</button>
+          </div>
+        </form>
+      </div>
+    </div>
+  </body>
+</html>
